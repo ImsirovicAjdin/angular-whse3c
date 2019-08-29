@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -11,7 +12,7 @@ import { DatepickersComponent } from './datepickers/datepickers.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, ButtonsModule.forRoot() ],
   declarations: [ 
     AppComponent, HelloComponent, 
     ButtonsComponent, CarouselsComponent, DatepickersComponent, DropdownsComponent ],
