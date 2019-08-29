@@ -5,6 +5,7 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -21,7 +22,8 @@ import { DropdownsComponent } from './dropdowns/dropdowns.component';
     ButtonsModule.forRoot(), 
     CarouselModule.forRoot(),     
     BrowserAnimationsModule,
-    BsDatepickerModule.forRoot() 
+    BsDatepickerModule.forRoot(),
+    BsDropdownModule.forRoot()    
   ],
   declarations: [ 
     AppComponent, HelloComponent, 
