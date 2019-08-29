@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'my-buttons',
   templateUrl: './buttons.component.html',
 })
-export class ButtonsComponent { }
+export class ButtonsComponent {
+  checkModel: any = { left: false, middle: true, right: false };
+}
