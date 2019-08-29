@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
 })
 export class ButtonsComponent {
   checkModel: any = { left: false, middle: true, right: false };
+  singleModel = '1';
 }

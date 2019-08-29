@@ -12,3 +12,10 @@
   <label class="btn btn-primary" [(ngModel)]="checkModel.right"
          btnCheckbox tabindex="0" role="button">Right</label>
 </div>
+
+<pre class="card card-block card-header">{{singleModel}}</pre>
+<button type="button" class="btn btn-primary"
+        [(ngModel)]="singleModel" btnCheckbox
+        btnCheckboxTrue="1" btnCheckboxFalse="0">
+  Single Toggle
+</button>
